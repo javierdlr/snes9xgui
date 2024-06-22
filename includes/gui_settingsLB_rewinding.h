@@ -1,0 +1,58 @@
+#ifndef GUI_SETTINGS_REWINDING_H
+#define GUI_SETTINGS_REWINDING_H
+
+LAYOUT_AddChild, IIntuition->NewObject(LayoutClass, NULL, //"layout.gadget",
+  LAYOUT_BevelStyle, BVS_SBAR_VERT,//BVS_GROUP,
+  LAYOUT_Label,      GetString(&li, MSG_GUI_SETTINGS_REWINDING),//"Rewinding Options",
+
+  LAYOUT_AddChild, IIntuition->NewObject(SpaceClass, NULL, TAG_DONE),
+
+             LAYOUT_AddChild, IIntuition->NewObject(LayoutClass, NULL, //"layout.gadget",
+               LAYOUT_Orientation,    LAYOUT_ORIENT_VERT,
+               LAYOUT_HorizAlignment, LALIGN_RIGHT,
+               LAYOUT_SpaceOuter,     TRUE,
+//LAYOUT_BevelStyle, BVS_GROUP,
+               LAYOUT_AddChild, OBJ(OID_REWINDING) = IIntuition->NewObject(CheckBoxClass, NULL, //"checkbox.gadget",
+                GA_ID,        OID_REWINDING,
+                GA_RelVerify, TRUE,
+                GA_Text,      GetString(&li, MSG_GUI_SETTINGS_REWINDING_ACTIVE),//"Activate rewinding",
+                CHECKBOX_TextPlace, PLACETEXT_LEFT,
+               TAG_DONE),
+//               CHILD_WeightedWidth, 0,
+               LAYOUT_AddChild, OBJ(OID_REW_BUF) = IIntuition->NewObject(IntegerClass, NULL, //"integer.gadget",
+                //GA_ID,       OID_REWIND_BUF,
+                //GA_RelVerify, TRUE,
+                GA_Disabled, TRUE,
+                INTEGER_Number, cfg_value[_REW_BUF],
+                INTEGER_Minimum,    2,
+                INTEGER_Maximum,  100,
+                INTEGER_MinVisible, 4,
+                INTEGER_MaxChars,   3,
+               TAG_DONE),
+//               CHILD_WeightedWidth, 0,
+               CHILD_Label, IIntuition->NewObject(LabelClass, NULL,// "label.image",
+                LABEL_Text, GetString(&li, MSG_GUI_SETTINGS_REWINDING_BUFFER),//"Rewind buffer:",
+               TAG_DONE),
+               LAYOUT_AddChild, OBJ(OID_REW_GRA) = IIntuition->NewObject(IntegerClass, NULL, //"integer.gadget",
+                //GA_ID,       OID_REWIND_GRA,
+                //GA_RelVerify, TRUE,
+                GA_Disabled, TRUE,
+                INTEGER_Number, cfg_value[_REW_GRA],
+                INTEGER_Minimum,    2,
+                INTEGER_Maximum,  100,
+                INTEGER_MinVisible, 4,
+                INTEGER_MaxChars,   3,
+               TAG_DONE),
+//               CHILD_WeightedWidth, 0,
+               CHILD_Label, IIntuition->NewObject(LabelClass, NULL,// "label.image",
+                LABEL_Text, GetString(&li, MSG_GUI_SETTINGS_REWINDING_GRANULARITY),//"Rewind granularity:",
+               TAG_DONE),
+             TAG_DONE),
+             CHILD_WeightedWidth, 0,
+
+  LAYOUT_AddChild, IIntuition->NewObject(SpaceClass, NULL, TAG_DONE),
+
+TAG_DONE), // END of 'Rewindiong Options'
+             //CHILD_WeightedHeight, 0,
+
+#endif
