@@ -15,7 +15,7 @@ OBJ = \
 	
 
 
-BIN = snes9xGUI
+BIN = snes9xGUI_contrib
 
 
 OS := $(shell uname)
