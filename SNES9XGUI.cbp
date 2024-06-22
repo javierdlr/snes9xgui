@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<CodeBench_Project name="SNES9XGUI" path="SDK:ejemplos/snes9x_gui/SNES9XGUI.cbp" created="1210545936" lastmodified="1218027164">
+	<plugin name="PROGDIR:Plugins/AmigaOS4SDK.CCPlugin" flags="0"/>
+	<label identifier="////"/>
+	<target name="snes9xGUI"/>
+	<homedir name="SDK:ejemplos/snes9x_gui"/>
+	<compiler name="SDK:gcc/bin/gcc" switches="-Wall -D__AMIGADATE__=\&quot;`c:date LFORMAT %d.%m.%Y`\&quot;" stack="131072"/>
+	<debugger name="SDK:c/gdb" addsymbols="1"/>
+	<header pattern="#?.(h|hpp|hxx)"/>
+	<source pattern="#?.(c|cpp|cc|cxx)"/>
+	<object pattern="#?.(o|lib|a)"/>
+	<other pattern="~(#?.h|#?.c|#?.cpp|#?.cc|#?.cxx|#?.o|#?.lib|#?.a)"/>
+	<builder name="SDK:c/make -f"/>
+	<environment/>
+	<headers>
+		<file name="includes.h" open="1" current="1"/>
+		<file name="snes9xgui_rev.h" open="0"/>
+		<file name="snes9xgui_strings.h" open="0"/>
+	</headers>
+	<sources>
+		<file name="snes9xgui.c" open="1"/>
+		<file name="gui.c" open="1"/>
+		<file name="cfg.c" open="1"/>
+	</sources>
+	<others>
+		<file name="snes9xGUI.readme" open="1"/>
+		<file name="snes9xgui.cd" open="1"/>
+	</others>
+	<flags value="0x0000000002078003"/>
+	<buildscript name="Makefile" depth="3" open="0"/>
+	<projectnotes open="0"/>
+	<buildwindow open="1"/>
+	<logfile name="RAM Disk:Build.log"/>
+	<customrules>
+		<rule name="snes9xgui_strings.h" add="2">
+			<dependency>snes9xgui.cd</dependency>
+			<command>APPDIR:CatComp snes9xgui.cd CFILE snes9xgui_strings.h</command>
+		</rule>
+	</customrules>
+	<customincludes/>
+</CodeBench_Project>

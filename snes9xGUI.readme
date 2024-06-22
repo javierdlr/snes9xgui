@@ -1,0 +1,113 @@
+snes9xGUI V1.5 (2024.mm.dd) - alternative/contribution
+******************************************************
+
+You can use it and change code at will, 'cos is free-for-all-ware :-)
+
+USAGE:
+-CLI/Shell:
+No arguments (atm). Just execute it and will try to load ROMs/Datas
+from its current path (PROGDIR:)
+-Workbench icon:
+MAX_WINSIZE: open window maximized (minus screen titlebar) on screen.
+PUBSCREEN=<public_screen_name>: open on pubscreen. To create a public
+screen use 'SYS:Prefs/Screens'.
+COLOR1=<rrggbb>: hex. background color for odd rows (default=CCCCCC).
+COLOR2=<rrggbb>: hex. background color for even rows (default=DDDDDD).
+TEXT=<rrggbb>: hex. textcolor used on rows (default=000000).
+PREVIEWS_DRAWER=<drawer>: covers/previews images drawer (default=Covers3D).
+LAST_ROM_LAUNCHED=<value>: position in list of last launched ROM.
+NO_GUI_FADE: don't use fade in/out GUI effect.
+
+-Keyboard handling:
+ESC quits snes9xGUI.
+-Keyboard handling in GENERAL tab:
+Cursor Up/Down, Page Up/Down and Home/End keys to select ROM.
+Enter/Return to launch selected ROM.
+Keypress (A-Z) should go to a ROM starting with such letter/key pressed.
+
+-Mouse usage in GENERAL tab:
+You can launch a ROM entry by double click on an entry or clicking in
+the cover/image (it's a button).
+
+-Joypad usage in AMIGAINPUT tab:
+Just click on right-side buttons and press on your joypad to remap/assign.
+
+
+TRANSLATORS:
+French catalog by Hugues 'HunoPPC' Nouvel.
+German catalog by 'Tommysammy', 'Niki' and 'Maijestro'.
+Italian catalog by Samir 'Samo79' Hawamdeh.
+Polish catalog by 'smarkusg'.
+Spanish catalog by Javier de las Rivas.
+
+
+SPECIAL THANKS:
+HunoPPC for such great snes9x port!!!
+Everyone at os4coding forum!
+
+
+TO-DO:
+-Fix bugs.
+-Ideas, suggestions...
+
+
+AUTHOR:
+Javier de las Rivas <jabierdlr@gmail.com>
+
+
+HISTORY:
+V1.1 (2016.06.21): first release (work in progress, aka BETA)
+-Added HunoPPC fixes.
+-Finished (hope so) keyboard letter handling in listbrowser.
+-Fixed pubscreen lock on closing snes9xGUI window.
+-New tooltypes COLOR1/COLOR2/TEXT to define rows bgcolors/text.
+-Added some/more safety checks.
+V1.2 (2016.07.22): yep, time for a version bump (still BETA)
+-Refactored some GUI code.
+-Added ESC keystroke to exit snes9xGUI.
+-Now disposses preview image properly.
+-Allocating/Freeing memory on 2 not needed string vars.
+-Changed all tab/page 'RefreshGadgets()' to 'RefreshPageGadget()'.
+V1.3 (2017.02.11): added official GUI-Snes9x's options
+-Added to use new snes9x-sdlCOMP (Composite- Linear/Nearest).
+-Added in AmigaInput page joypad/gamed button remap choosers.
+-Added save/load new button remap values.
+-Some code fixed/cleanup I can't remember.
+-Added SHOW_COVER tooltype.
+V1.4 (2024.02.20): added official GUI-Snes9x's options
+-Added new Graphic Options.
+-Added new Misc. Options.
+-Added Engine Options.
+-Added save/load/default new options.
+-Changed in AmigaInput tab, user can changes player keys.
+-Splitted gui pages/options into separate files (.h).
+-Added new Rewinding Options.
+-Changed 'Overclock CPU Snes9x' to be a chooser.
+-Added 'Format' column showing romfile extension.
+-Use column extension to "build" romfile name.
+-Fixed column width.
+-Changed tooltype SHOW_COVERS -> SHOW_PREVIEWS, as now covers3D are
+ "main" image/button and if "Previews" drawer exists it shows them
+ (MAX_WINSIZE or SHOW_PREVIEWS tooltypes).
+-Simplified Covers3D/Previews image code.
+-Added to listbrowser page up/down keys.
+-Shifted ABOUT tab to last position.
+-Added LAST_ROM_LAUNCHED tooltype.
+-Added to listbrowser home/end keys.
+-Added 'Emulated machine', 'Interpolation method' and 'Sound thread'
+ options.
+-Added in player2's chooser new input options.
+-Removed SHOW_PREVIEWS tooltype/stuff.
+-Added PREVIEWS_DRAWER tooltype (works like outdated SHOW_PREVIEWS).
+-Reworked a bit image/preview button (needs _launchROM.png).
+-Added 'Roms-Optical' to the list of roms drawers.
+-Added NO_GUI_FADE tooltype.
+-Reworked code how to split rom name+extension.
+V1.5 (2024.mm.dd): added official GUI-Snes9x's options
+-Added in General tab 'roms availables' counter.
+-Added in General tab 'Load savestates' chooser.
+-Added in About tab 'Donation' button.
+-Reworked settings page, now is a listbrowser.
+-Reworked some gadgets.
+-Updated save/load/default new options.
+-Updated how AmigaInput remapping buttons works.
