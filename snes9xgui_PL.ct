@@ -1,0 +1,586 @@
+## version $VER: dgengui.catalog 1.9 (10.05.2024)
+## codeset 5
+## language polish
+;## chunk AUTH Translated by smarkusg
+;
+MSG_ERROR_NOROMS
+Nie znaleziono ¿anych ROM.
+; No roms found.
+;
+MSG_ERROR_REQUIRED
+Nie uda³o siê znale¶æ wymaganej biblioteki/klasy.
+; Couldn't find required library/classes.
+;
+MSG_ERROR_ROMDRAWER
+\033cNie uda³o siê wczytaæ \033b'%s'\033n ROMs:\n%s
+; \033cFailed to load \033b'%s'\033n ROMs:\n%s.
+; ROMTYPE (Universal/French/SuperFX/MSU1/Optical), IOERR_STRING
+;
+MSG_ERROR_LAUNCHING
+B³±d podczas uruchamiania Snes9x!
+; Error launching snes9x executable!
+;
+MSG_ERROR_SAVING
+B³±d zapisu pliku 'snes9x.cfg'.
+; ERROR saving 'snes9x.cfg' file.
+;
+MSG_FAIL_OBTAIN_PEN
+Ostrze¿enie, nie mo¿na uzyskaæ koloru pióra '%s'
+; Warning, couldn't obtain color for pen '%s'.
+;
+MSG_GUI_PAGE_ABOUT
+Informacje
+; About
+;
+MSG_GUI_PAGE_GENERAL
+_1 Ogólne
+; _1 General
+;
+MSG_GUI_PAGE_SETTINGS
+_2 Ustawienia
+; _2 Settings
+;
+MSG_GUI_PAGE_AMIGAINPUT
+_3 AmigaInput
+; _3 AmigaInput
+;
+MSG_GUI_TITLE_COL_ROM
+ROM/Gra
+; ROM/Game
+;
+MSG_GUI_TITLE_COL_FORM
+Format
+; Format
+;
+MSG_GUI_SETTINGS_GLOBAL
+Ustawiania Globalne
+; Global Settings
+;
+MSG_GUI_SG_WINDOW
+Okno
+; Window
+;
+MSG_GUI_SG_FULLSCREEN
+Pe³ny Eran
+; Fullscreen
+;
+MSG_GUI_SG_VIDEOMODE
+Tryb Wideo: %s
+; video mode: %s
+;
+MSG_GUI_SG_VIDEOMODE_DEFAULT
+Tryb Wideo: Blocky (domy¶lnie)
+; video mode: Blocky (default)
+;
+MSG_GUI_SG_FRAMESKIP
+Pominiêcie klatki (frameskip) : %ld
+; frameskip: %ld
+;
+MSG_GUI_SG_FRAMESKIP_AUTO
+Pominiêcie klatki (frameskip): automatycznie
+; frameskip: auto
+;
+MSG_GUI_SG_FRAMESKIP_NONE
+Pominiêcie klatki: brak
+; frameskip: none
+;
+MSG_GUI_ABOUT_TXT01
+Interfejs Snes9x dla AmigaOS4 autorstwa Javier de las Rivas\n\n
+; Using Snes9x for AmigaOS by Hugues 'HunoPPC' Nouvel\n\n
+;
+MSG_GUI_ABOUT_TXT02
+Amiga French Team na wydarzenie Amigateries 2016 (Bourgogne)\nOnly Amiga makes it possible...\n\n
+; Amiga French Team during event Amigateries 2016 (Bourgogne)\nAmiga Makes it possible...\n\n
+;
+MSG_GUI_ABOUT_TXT03
+Podziêkowania dla HunoPPC, Murielle, KL, Lio, Olrick, Alex, Glames, YesCop,\nZzd10h, Elwood, Javier de las Rivas i Samo79 za wsparcie i ciê¿k± pracê.
+; Thanks to HunoPPC, Murielle, KL, Lio, Olrick, Alex, Glames,\nYesCop, Zzd10h, Elwood, Samo79 for your support and hard work.
+;
+MSG_GUI_GENERAL_GROUP
+Gra / Podgl±d
+; Game / Preview
+;
+MSG_GUI_GENERAL_NOPREVIEW
+Cover3D nie jest dostêpny
+; Cover3D no available
+;
+MSG_GUI_SETTINGS_GFX_GROUP
+Opcje Graficzne
+; Graphics Options
+;
+MSG_GUI_SETTINGS_GFX_NOINTERLEAVE
+_Wy³±cz przeplot (interleave)
+; Disabl_e interleave
+;
+MSG_GUI_SETTINGS_GFX_MEMMAP
+Mapa _pamiêci
+; _Memory map
+;
+MSG_GUI_SETTINGS_GFX_MEMMAP_HIROM
+Wymuszenie trybu Hi-ROM
+; Force Hi-ROM
+;
+MSG_GUI_SETTINGS_GFX_MEMMAP_LOROM
+Wymuszenie trybu Lo-ROM
+; Force Lo-ROM
+;
+MSG_GUI_SETTINGS_GFX_OVERSFX
+Zwiêkszenie Wydajno¶ci (Overclock) SuperFX
+; Overclock Super_FX
+;
+MSG_GUI_SETTINGS_GFX_VIDEO
+_Wideo
+; Vide_o
+;
+MSG_GUI_SETTINGS_GFX_DEFAULT
+Domy¶lne
+; Default
+;
+MSG_GUI_SETTINGS_SND_GROUP
+Opcje D¼wiêku
+; Audio Options
+;
+MSG_GUI_SETTINGS_SND_PLAYBACK
+Odtwarzanie _AHI
+; _AHI Playback
+;
+MSG_GUI_SETTINGS_SND_MUTE
+Wyciszenie
+; Mute
+;
+MSG_GUI_SETTINGS_SND_BUFFER
+Wielko¶æ bufora
+;  _Buffer length
+;
+MSG_GUI_SETTINGS_SND_SYNC
+ _Synchronizacja audio
+; Synchroni_zed
+;
+MSG_GUI_SETTINGS_SND_NOST
+Wy³±cz  stereo
+; _No stereo
+;
+MSG_GUI_SETTINGS_ENGINE_OPTIONS
+Opcje Silnika (Engine)
+; Engine options
+;
+MSG_GUI_SETTINGS_ENG_ACTIVETFRAMESKIP
+Szybkie pominiêcie klatki
+;  _TurboFrameSkip
+;
+MSG_GUI_SETTINGS_ENG_VIDEOHACK
+_Hack Wideo
+; Video_Hack
+;
+MSG_GUI_SETTINGS_ENG_TFRAMESKIP
+ Klatki dla trybu TurboFrameSkip
+; Frame(s) of TurboFrameS_kip
+;
+MSG_GUI_SETTINGS_NOOVERSCAN
+Brak Trybu O_verscan (320x240)
+; No O_verscan (320x240)
+;
+MSG_GUI_SETTINGS_MSU1
+Aktywój MS_U1
+; Activate MS_U1
+;
+MSG_GUI_TITLE_COL_IMG
+Typ
+; Type
+;
+MSG_GUI_TITLE_COL_TYPE
+ROM
+; ROM
+;
+MSG_GUI_SETTINGS_MISC_GROUP
+Dodatkowe Opcje
+; Miscellaneous Options
+;
+MSG_GUI_SETTINGS_MISC_FPS
+Poka¿ _FPS
+; Show _FPS
+;
+MSG_GUI_SETTINGS_TIME
+Poka¿ czas
+; _Display time
+;
+MSG_GUI_SETTINGS_VSYNC
+ Synchronizacja Pionowa (Vsync) Snes9x
+; Vs_ync on Snes9x
+;
+MSG_GUI_SETTINGS_OVERCLOCK
+ Zwiêkszenie wydajnono¶æi (Overclock) _CPU Snes9x
+;  Overclock _CPU Snes9X
+;
+MSG_GUI_AI_P1_GROUP
+Gracz 1 Ustawienia Wej¶cia
+; Player 1 Input Settings
+;
+MSG_GUI_AI_P2_GROUP
+Gracz 2 Ustawienia Wej¶cia
+; Player 2 Input Settings
+;
+MSG_GUI_AI_KEYBOARD
+Klawiatura
+; Keyboard
+;
+MSG_GUI_AI_JOYPAD
+Joypad
+; Joypad
+;
+MSG_GUI_AI_MOUSE
+Mysz
+; Mouse
+;
+MSG_GUI_AI_SUPERSCOPE
+Superscope
+; Superscope
+;
+MSG_GUI_AI_JUSTIFIER
+Justifier
+; Justifier
+;
+MSG_GUI_AI_MACSRIFLE
+MACS Rifle
+; Macsrifle
+;
+MSG_GUI_AI_JOYPAD_SATRT_BTN
+Joypad ma przycisk start
+; Joypad has start-button
+;
+MSG_GUI_AI_LEFT
+Lewo:
+;  Left:
+;
+MSG_GUI_AI_RIGHT
+Prawo:
+;  Right:
+;
+MSG_GUI_AI_UP
+Góra:
+;  Up:
+;
+MSG_GUI_AI_DOWN
+Dó³:
+;  Down:
+;
+MSG_GUI_AI_BTN_A
+Przycisk-A:
+;  A-button:
+;
+MSG_GUI_AI_BTN_B
+Przycisk-B:
+;  B-button:
+;
+MSG_GUI_AI_BTN_X
+Przycisk--X:
+;  X-button:
+;
+MSG_GUI_AI_BTN_Y
+Przycisk--Y:
+;  Y-button:
+;
+MSG_GUI_AI_BTN_L
+Przycisk--L:
+;  L-button:
+;
+MSG_GUI_AI_BTN_R
+Przycisk--R:
+;  R-button:
+;
+MSG_GUI_AI_SELECT
+Przycisk Wyboru:
+;  Select:
+;
+MSG_GUI_AI_START
+Przycisk Start:
+;  Start:
+;
+MSG_GUI_SAVE_BTN
+Zapisz Ustawienia
+; Save settings
+;
+MSG_GUI_DEFAULT_BTN
+Ustawianie Domy¶lne
+; Default settings
+;
+MSG_GUI_SETTINGS_REWINDING
+Opcje Przewijania (Rewinding)
+; Rewinding Options
+;
+MSG_GUI_SETTINGS_REWINDING_ACTIVE
+Aktywuje Przewijanie (Rewinding)
+; Activate re_winding
+;
+MSG_GUI_SETTINGS_REWINDING_BUFFER
+Bufor Przewijania:
+; _Rewind buffer:
+;
+MSG_GUI_SETTINGS_REWINDING_GRANULARITY
+Dok³ado¶æ Przewijania:
+; Rewind _granularity:
+;
+MSG_GUI_SETTINGS_SND_INTERPOL
+Metoda Interpolacji D¼wiêku
+; Sound _Interpolation Method
+;
+MSG_GUI_SETTINGS_NOSOUNDGUI
+_Efekt d¼wiêkowy GUI
+; Sound effects GUI
+;
+MSG_GUI_SETTINGS_DISABLESPRITELIMIT
+Wy³±cz limit sprite'ów
+; Disable s_prite limit
+;
+MSG_GUI_SETTINGS_EMULATED
+Emulowana Maszyna
+; Emu_lated machine
+;
+MSG_GUI_SETTINGS_SND_THREAD
+W±tek D¼wiêku (thread)
+; Sound _thread
+;
+MSG_GUI_QUIT_BTN
+Wyj¶cie
+; Quit
+;
+MSG_GUI_SETTINGS_GFX_SKINFX
+SkinFX
+; SkinFX
+;
+MSG_GUI_SETTINGS_GFX_RENDER
+Typ renderowania
+; Type of render
+;
+MSG_GUI_SETTINGS_GFX_SOFTWARE
+Programowe (Software)
+; Software
+;
+MSG_GUI_SETTINGS_GFX_OPENGL
+OpenGL Sprzêtowe (Hardware)
+; OpenGL (Hardware)
+;
+MSG_GUI_SETTINGS_GFX_COMPOSITING
+Compositing Sprzêtowe (Hardware)
+; Compositing (Hardware)
+;
+MSG_GUI_SETTINGS_GFX_EGL_WRAP
+EGL_Wrap Sprzêtowe (Hardware)
+; EGL_Wrap (Hardware)
+;
+MSG_GUI_SETTINGS_GFX_FILTERS
+Filtry
+; Filters
+;
+MSG_GUI_SETTINGS_GFX_FILTERS_LINEAR
+Liniowy (Lineare)
+; Linear
+;
+MSG_GUI_SETTINGS_GFX_FILTERS_NEAREST
+Najbli¿szy (Nearest)
+; Nearest
+;
+MSG_GUI_SETTINGS_RENDER
+Wy¶wietl tryb renderowania
+; Display type of render
+;
+MSG_OK_GAD
+_Ok
+; _OK
+;
+MSG_REGION_ALL_BTN
+Wszystkie ROM(y)
+; All Roms
+;
+MSG_REGION_UNIVERSAL_BTN
+Rom Universali
+; Universal
+;
+MSG_REGION_FRENCH_BTN
+Rom French
+; French
+;
+MSG_REGION_FX_BTN
+Rom SuperFX
+; SuperFX
+;
+MSG_REGION_OP_BTN
+Rom Optical
+; Optical
+;
+MSG_REGION_MS_BTN
+Rom MSU1
+; MSU1
+;
+MSG_GUI_ABOUT_GROUP
+Informacje o Snes9x e GUI
+; About Snes9x and GUI
+;
+MSG_SCREENTITLE
+Snes9x dla AmigaOS4, HunoPPC (c) 2016-2024
+; ReAction GUI for Snes9x AmigaOS4, HunoPPC  (c) 2016-2024
+;
+MSG_GUI_ABOUT2_TXT01
+Interfejs Snes9x dla wersji AmigaOS4 stworzony przez Hugues 'HunoPPC' Nouvel\n\n
+;  Using Snes9x-GUI created for AmigaOS4 by Hugues `HunoPPC` Nouvel\n\n
+;
+MSG_GUI_ABOUT2_TXT02
+Amiga French Team na wydarzenie Amigateries 2016 (Bourgogne)\nOnly Amiga makes it possible...\n\n
+;  Amiga French Team during event Amigateries 2016 (Bourgogne), Amiga Makes it possible...\n\n
+;
+MSG_GUI_ABOUT2_TXT03
+Podziêkowania dla HunoPPC, Murielle, KL, Lio, Olrick, Alex, Glames, YesCop,\nZzd10h, Elwood, Javier de las Rivas i Samo79 za wsparcie i ciê¿k± pracê.
+;  Thanks to  Murielle, KL, Lio, Olrick, Alex, Glames, YesCop, Zzd10h, Elwood, Javier de las Rivas, Samo79 for your support and hard work.
+;
+MSG_GUI_SETTINGS_GFX_SHADERS_FILTER1
+Shader CRT Low
+; Shader CRT Low
+;
+MSG_GUI_SETTINGS_GFX_SHADERS_FILTER2
+Shader CRT High
+; Shader CRT High
+;
+MSG_GUI_SETTINGS_GFX_SHADERS_FILTER3
+Shader CRT Scanline Low
+; Shader CRT Scanline Low
+;
+MSG_GUI_SETTINGS_GFX_SHADERS_FILTER4
+Shader CRT Scanline High
+; Shader CRT Scanline High
+;
+MSG_GUI_SETTINGS_GFX_SHADERS_FILTER5
+Shader CRT No Scanline
+; Shader CRT No Scanline
+;
+MSG_GUI_SETTINGS_GFX_SAVED_STATES
+Zapisane stany
+; Saved states
+;
+MSG_GUI_SETTINGS_GFX_LAST_PLAYED_SESSION
+Kontynuuj wybran± sesjê
+; Continue with the selected session
+;
+; Contrib
+;
+MSG_GUI_AI_BUTTON_REMAP
+(Mo¿esz zmieniæ przypisanie przycisków joypada za pomoc± selektorów B0..B9)
+; (You can remap joypad buttons using the B0..B9 choosers)
+;
+MSG_GUI_SETTINGS_GFX_OVERSFX_NORMAL
+Normalny
+; No
+; Normal
+;
+MSG_GUI_SETTINGS_ENG_TFRAMESKIP_OFF
+Wy³±czony
+; Off
+;
+MSG_GUI_SETTINGS_ENG_TFRAMESKIP_FRAMES
+%ld klatki
+; %ld frame(s)
+;
+MSG_GUI_SETTINGS_OVERCLOCK_OFF
+Wy³±czony
+; No
+;
+MSG_GUI_SETTINGS_OVERCLOCK_MIN
+Minimalny
+; min.
+;
+MSG_GUI_SETTINGS_OVERCLOCK_MED
+¦redni
+; med.
+;
+MSG_GUI_SETTINGS_OVERCLOCK_MAX
+Maksymalny
+; max.
+;
+MSG_GUI_SETTINGS_SND_INTERPOL_OFF
+Wy³±czony
+; Off
+;
+MSG_GUI_SETTINGS_SND_INTERPOL_LIN
+Linearny
+; Linear
+;
+MSG_GUI_SETTINGS_SND_INTERPOL_GAU
+Gaussian (SNES Hardware)
+; Gaussian (SNES Hardware)
+;
+MSG_GUI_SETTINGS_SND_INTERPOL_CUB
+Cubic
+; Cubic
+;
+MSG_GUI_SETTINGS_SND_INTERPOL_SIN
+Sinc
+; Sinc
+;
+MSG_GUI_GENERAL_TOTALROMS
+%ld rom dostêpnych
+; %ld roms available
+;
+MSG_GUI_GENERAL_SAVESTATES
+Wczytaj slot zapisu
+; Load savestate
+; space at beginning to not being too close to rom listbrowser
+;
+MSG_GUI_GENERAL_SAVESTATES_NONE
+Wy³±czony
+; None
+;
+MSG_GUI_SETTINGS_GROUP_GFX
+Grafika
+; Graphics
+;
+MSG_GUI_SETTINGS_GROUP_SND
+Audio
+; Audio
+;
+MSG_GUI_SETTINGS_GROUP_ENGINE
+Engine
+; Engine
+;
+MSG_GUI_SETTINGS_GROUP_MISC
+Dodatki
+; Miscellaneous
+;
+MSG_GUI_SETTINGS_GROUP_REW
+Przewijanie
+; Rewinding
+;
+MSG_GUI_SETTINGS_GFX_SKINS
+Skóra
+; Skins
+;
+MSG_GUI_SETTINGS_GFX_SHADERS
+Shaders
+; Shaders
+;
+MSG_GUI_SETTINGS_GFX_SKINS_NO
+Wy³±czony
+;No
+;
+MSG_GUI_SETTINGS_QWERTY
+_Qwerty
+; _Qwerty
+;
+;MSG_GUI_GENERAL_RENDER_SOFT
+;Software render
+; software render
+;
+;MSG_GUI_GENERAL_RENDER_OGL
+;MiniGL/OpenGL (hw)
+; mini/opengl (hw)
+;
+;MSG_GUI_GENERAL_RENDER_COMP
+;Compositing (hw)
+; compositing (hw)
+;
+;MSG_GUI_GENERAL_RENDER_EGLW
+;EGL_Wrap (hw)
+; egl_wrap (hw)
+;
+MSG_ERROR_URLOPEN
+Konieczne jest zamontowanie "URL:" (launch-handler)!
+; You need 'URL:' (launch-handler) mounted!
+;

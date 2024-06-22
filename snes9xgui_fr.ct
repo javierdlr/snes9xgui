@@ -1,0 +1,257 @@
+## version $VER: snes9xgui.catalog 1.1 (26.05.2016)
+## codeset 4
+## language french
+;
+MSG_ERROR_NOROMS
+Aucune roms trouvées.
+; No roms found.
+;
+MSG_ERROR_REQUIRED
+Ne trouve pas la librairie/classes requise.
+; Couldn't find required library/classes.
+;
+MSG_ERROR_ROMDRAWER
+\033cErreur de chargement \033b'%s'\033 ROMs:\n%s.
+; \033cFailed to load \033b'%s'\033 ROMs:\n%s.
+;
+MSG_ERROR_LAUNCHING
+Erreur de lancement 'snes9x-sdl'!
+; Error launching 'snes9x-sdl'!
+;
+MSG_ERROR_SAVING
+ERREUR de sauvegarde du fichier 'snes9x.cfg'.
+; ERROR saving 'snes9x.cfg' file.
+;
+MSG_FAIL_OBTAIN_PEN
+Attention, on ne peut pas obtenir la couleur du stylo '%s'.
+;Warning, couldn't obtain color for pen '%s'.
+;
+MSG_GUI_PAGE_ABOUT
+A propos
+; About
+;
+MSG_GUI_PAGE_GENERAL
+_1 Général
+; _1 General
+;
+MSG_GUI_PAGE_SETTINGS
+_2 Paramêtres
+; _2 Settings
+;
+MSG_GUI_PAGE_AMIGAINPUT
+_3 Gestion AmigaInput
+; _3 AmigaInput
+;
+MSG_GUI_TITLE_COL_ROM
+ROM/Jeu
+;  ROM/Game
+;
+MSG_GUI_SETTINGS_GLOBAL
+Réglages globaux
+; Global Settings
+;
+MSG_GUI_SG_WINDOW
+Fenêtre
+; Window
+;
+MSG_GUI_SG_FULLSCREEN
+Plein écran
+; Fullscreen
+;
+MSG_GUI_SG_VIDEOMODE
+Mode vidéo: %s
+; video mode: %s
+;
+MSG_GUI_SG_VIDEOMODE_DEFAULT
+Mode vidéo: Blocky (par defaut)
+; video mode: Blocky (default)
+;
+MSG_GUI_SG_FRAMESKIP
+Saut d'images: %ld
+; frameskip: %ld
+;
+MSG_GUI_SG_FRAMESKIP_AUTO
+Saut d'images: auto
+; frameskip: auto
+;
+MSG_GUI_SG_FRAMESKIP_NONE
+Saut d'images: aucun
+; frameskip: none
+;
+MSG_GUI_ABOUT_TXT01
+Interface Snes9x réalisée pour AmigaOS4 par hugues 'Nouvel' HunoPPC\n\n
+; Using Snes9x created for AmigaOS by hugues 'Nouvel' HunoPPC\n\n
+;
+MSG_GUI_ABOUT_TXT02
+Amiga Team Française durant l'évènement Amigateries 2016 (Bourgogne)\n\
+Amiga tout est réalisable...\n\n
+; Amiga French Team during event Amigateries 2016 (Bourgogne)\n\
+; Amiga Makes it possible...\n\n
+;
+MSG_GUI_ABOUT_TXT03
+Un grand merci à Murielle, KL, Lio, Olrick, Alex, Glames, YesCop, Zzd10h,\n\
+Elwood, Javier de las Rivas, Samo79 pour leurs aide et leur super travail.
+; Thanks to Murielle, KL, Lio, Olrick, Alex, Glames, YesCop, Zzd10h,\n\
+; Elwood, Javier de las Rivas, Samo79 for your support and hard work.
+;
+MSG_GUI_GENERAL_GROUP
+Jeu / Présentation
+; Game / Preview
+;
+MSG_GUI_GENERAL_NOPREVIEW
+Aucune présentation disponible
+; No preview available
+;
+MSG_GUI_SETTINGS_GFX_GROUP
+Options graphiques
+; Graphics Options
+;
+MSG_GUI_SETTINGS_GFX_NOINTERLEAVE
+Désactiv_er interleave
+; Disabl_e interleave
+;
+MSG_GUI_SETTINGS_GFX_MEMMAP
+ _Mappage mémoire
+; _Memory map
+;
+MSG_GUI_SETTINGS_GFX_MEMMAP_HIROM
+Forcer Hi-ROM
+; Force Hi-ROM
+;
+MSG_GUI_SETTINGS_GFX_MEMMAP_LOROM
+Forcer Lo-ROM
+; Force Lo-ROM
+;
+MSG_GUI_SETTINGS_GFX_VIDEO
+Vidé_o
+; Vide_o
+;
+MSG_GUI_SETTINGS_GFX_DEFAULT
+Par defaut
+; Default
+;
+MSG_GUI_SETTINGS_SND_GROUP
+Options sonores
+; Audio Options
+;
+MSG_GUI_SETTINGS_SND_PLAYBACK
+_Lectures sonore AHI
+; _AHI Playback
+;
+MSG_GUI_SETTINGS_SND_MUTE
+Muet
+; Mute
+;
+MSG_GUI_SETTINGS_SND_BUFFER
+_Tampon sonore
+;  _Buffer length
+;
+MSG_GUI_SETTINGS_SND_SYNC
+ Sychroniser
+; Synchroni_zed
+;
+MSG_GUI_SETTINGS_SND_NOST
+Son mono
+; _No stereo
+;
+MSG_GUI_SETTINGS_MISC_GROUP
+Options variées
+; Miscellaneous Options
+;
+MSG_GUI_SETTINGS_MISC_FPS
+Montrer les images _par secondes
+; Show _FPS
+;
+MSG_GUI_AI_P1_GROUP
+Ajuster les entrées du joueur 1
+; Player 1 Input Settings
+;
+MSG_GUI_AI_P2_GROUP
+Ajuster les entrées du joueur 1
+; Player 2 Input Settings
+;
+MSG_GUI_AI_KEYBOARD
+Clavier
+; Keyboard
+;
+MSG_GUI_AI_JOYPAD
+Manette
+; Joypad
+;
+MSG_GUI_AI_JOYPAD_SATRT_BTN
+Dispose d'un bouton 'START'
+; Joypad has start-button
+;
+MSG_GUI_AI_LEFT
+Gauche:
+; Left:
+;
+MSG_GUI_AI_RIGHT
+Droite:
+; Right:
+;
+MSG_GUI_AI_UP
+Haut:
+; Up:
+;
+MSG_GUI_AI_DOWN
+Bas:
+; Down:
+;
+MSG_GUI_AI_BTN_A
+Bouton-A:
+; A-button:
+;
+MSG_GUI_AI_BTN_B
+Bouton-B:
+; B-button:
+;
+MSG_GUI_AI_BTN_X
+Bouton-X:
+; X-button:
+;
+MSG_GUI_AI_BTN_Y
+Bouton-Y:
+; Y-button:
+;
+MSG_GUI_AI_BTN_L
+Bouton-L:
+; L-button:
+;
+MSG_GUI_AI_BTN_R
+Bouton-R:
+; R-button:
+;
+MSG_GUI_AI_SELECT
+B-Select:
+; Select:
+;
+MSG_GUI_AI_START
+B-Start:
+; Start:
+;
+MSG_GUI_SAVE_BTN
+Sauvegarder les réglages
+; Save settings
+;
+MSG_GUI_DEFAULT_BTN
+Réglages par defaut
+; Default settings
+;
+MSG_GUI_QUIT_BTN
+Quitter
+; Quit
+;
+MSG_OK_GAD
+_Accepter
+; _OK
+;
+MSG_REGION_ALL_BTN
+Toutes les Roms
+;
+MSG_REGION_UNIVERSAL_BTN
+Roms universelles
+;
+MSG_REGION_FRENCH_BTN
+Roms Françaises
+;
